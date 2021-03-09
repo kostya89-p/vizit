@@ -1,0 +1,37 @@
+body {
+font-family: "Arial", serif;
+background-color: white;
+color: black;
+font-size: 100%;
+}
+
+a:link, a:link h1{
+color: green
+}
+a:visited, a:visited h1{
+color: black;
+}
+a:active, a:active h1{
+color: red;
+}
+
+h1 {
+
+font-size: 200%;
+font-weight: bold;
+text-align: center;
+}
+
+h2 {
+
+font-size: 170%;
+font-weight: bold;
+}
+
+h3 {
+
+font-size: 150%;
+font-weight: bold;
+}
+
+

@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>Купить куртки, кросовки, джинсы</title>
+<meta http-equiv="Content Type" content="text/html; charset=windows-1251">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<img src="images/logo.jpg" width=100% height=10% border=0% alt="шапка сайта">
+<table width=90%>
+<tr>
+<td valign=top>
+<h2>Главная страница</h2>
+<ul>
+<a href="index.html"><img src="images/menu/kngm.jpg"></a>
+<a href="Kyrtka.html"><img src="images/menu/knmo.jpg"></a>
+<a href="Plate.html"><img src="images/menu/knjo.jpg"></a>
+<a href="Pemen.html"><img src="images/menu/kndo.jpg"></a>
+<a href="freedback.html"><img src="images/menu/knnb.jpg"></a>
+<a href="freedback.html"><img src="images/menu/knay.jpg"></a>
+</ul>
+</td>
+<td align=center>
+<font color=black>
+<h1>Обратная связь</h1>
+</font>
+<h2>Чтобы оставить отзыв о сайте, необходимо заполнить следующую форму:</h2>
+<form action="request.php" method="post">
+<table>
+<tr>
+<td align=right><label>Имя</label></td>
+<td><input type="text" name="name"></td>
+</tr>
+<tr>
+<td align=right><label>E-mail:</label></td>
+<td><input type="text" name="email"></td>
+</tr>
+<tr>
+<td align=right>
+<label>Пол</label>
+</td>
+<td>
+<input type="radio" name="floor" value="male">Мужской
+<input type="radio" name="floor" value="female">Женский
+</td>
+</tr>
+<tr>
+<td>
+<label>Выберите тему:</label>
+</td>
+<td>
+<select name="subject">
+<option value="review">Отзыв</option>
+<option value="suggestion" selected>Предложение</option>
+<option value="problams">Жалобы</option>
+</select>
+</td>
+</tr>
+</table>
+<label>Сообщение:</label>
+<br>
+<textarea name="messag" cols="40" rows="10"></textarea>
+<br>
+<input type="checkbox" name="news">Хотите получать новости об новинках?
+<br>
+<input type="submit" value="Подтвердить">
+</form>
+</td>
+</tr>
+</table>
+</body>
+<html>
